@@ -70,4 +70,16 @@ abstract public class Produkt {
     public void kupuje() {
         System.out.println("Kupuje");
     }
+
+    @Override
+    public String toString() {
+        return "Produkt{" +
+                "cena=" + cena +
+                ", name='" + name + '\'' +
+                ", ilosc_w_magazynie=" + ilosc_w_magazynie +
+                ", opis='" + opis + '\'' +
+                ", material='" + material + '\'' +
+                ", kolor='" + kolor + '\'' +
+                '}';
+    }
 }
