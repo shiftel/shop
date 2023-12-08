@@ -62,4 +62,9 @@ abstract public class Produkt {
     public void setKolor(String kolor) {
         this.kolor = kolor;
     }
+
+    public void sprzedaj() {
+        System.out.println("Sprzedaje");
+    }
+
 }
