@@ -82,4 +82,5 @@ abstract public class Produkt {
                 ", kolor='" + kolor + '\'' +
                 '}';
     }
+    int m = 0;
 }
