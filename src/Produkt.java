@@ -67,4 +67,7 @@ abstract public class Produkt {
         System.out.println("Sprzedaje");
     }
 
+    public void kupuje() {
+        System.out.println("Kupuje");
+    }
 }
